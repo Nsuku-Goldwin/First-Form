@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>First Form</title>
+  </head>
+  <body>
+    <main>
+      <form action="">
+        <h1>Contact</h1>
+        <div class="label-text">
+          <label for="first-name">First Name</label>
+          <input
+            type="text"
+            id="first-name"
+            placeholder="Enter First Name"
+            required
+          />
+        </div>
+        <div>
+          <label for="last-name">Last Name</label>
+          <input
+            type="text"
+            id="last-name"
+            placeholder="Enter Last Name"
+            required
+          />
+        </div>
+        <div>
+          <label for="phone">Phone</label>
+          <input type="tel" id="phone" required placeholder="+27123456789" />
+        </div>
+        <label for="date-and-time">Date and Time</label>
+        <div>
+          <div>
+            <label for="day">Day</label>
+            <input type="text" required id="day" />
+          </div>
+          <div>
+            <label for="month">Month</label>
+            <input type="month" id="month" required />
+          </div>
+          <div>
+            <label for="year">Year</label>
+            <input type="text" id="year" required />
+          </div>
+          <div>
+            <label for="time">Time</label>
+            <input type="time" id="time" required />
+          </div>
+        </div>
+        <div>
+          <label for="seating">Seating preference</label>
+          <input type="radio" id="indoor" name="seating" />
+          <label for="indoor">Indoor</label>
+          <input type="radio" id="outdoor" name="seating" />
+          <label for="outdoor">Outdoor</label>
+        </div>
+        <div>
+          <label for="additional">Additional Requests</label>
+          <input type="text" />
+        </div>
+        <div>
+          <input type="checkbox" id="subscribe" />
+          <label for="subscribe">Yes, Subscribe me to your news letter</label>
+        </div>
+        <div>
+          <button>Request Booking</button>
+        </div>
+      </form>
+    </main>
+  </body>
+</html>
