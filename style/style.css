@@ -1,0 +1,46 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.main-form {
+  display: flex;
+  justify-content: space-around;
+}
+.header {
+  text-align: center;
+  margin-top: 28px;
+}
+.label-text {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin: 12px 0px;
+}
+.label-text input {
+  border: 1px solid black;
+  padding: 4px;
+}
+.date-time {
+  display: flex;
+  gap: 20px;
+  /* border: 2px solid red; */
+}
+.date-time input {
+  width: 40px;
+  height: 16px;
+}
+button {
+  margin: 12px 0px;
+  width: 260px;
+  padding: 6px;
+  color: white;
+  background-color: black;
+  border: 0px;
+}
+button:hover {
+  color: black;
+  background-color: aquamarine;
+  padding: 6px;
+  cursor: pointer;
+  border: 2px solid black;
+}
